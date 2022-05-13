@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+  font-family: -apple-system,  'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +10,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Css Custom */
+
+.head-body {
+    color:#333333;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 20px 0;
+}
+
+hr {
+  color: rgb(164, 163, 163);
+}
+
+.pr-10 {
+  padding: 0 15px;
+}
+
+.pad-5 {
+  padding: 0 0 0 100px;
+}
+
+.ctl-form-in {
+
+  height: 200PX;
+}
+
+.mt-30 {
+  margin-top: 30px;
+  height: auto;
+}
+
+.ctn-out {
+  padding: 6px 0;
+}
+
+.form-output h2 {
+  text-align: center;
+  padding: 10px 0;
+
+}
+
+.form-label {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.btn-right {
+  float: right;
+}
+
+.form-dangky {
+  text-decoration: none;
+}
+
+.card {
+  flex-direction: column;
+  padding: 0 11px;
+  border-radius: 5px;
+}
+.form-header {
+  background-color: #ccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form-header h2 {
+  margin-top: 3px;
 }
